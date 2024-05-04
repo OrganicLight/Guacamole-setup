@@ -31,8 +31,8 @@ Following this repo I had a few issues, so we made a few adaptations.
 
         -- ufw allow 8080
         
-9. Check out if your server is running at localhost:8080/guacamole or domain/guacamole and use the original acc and pssw "guacadmin".
-10. Install x11vnc on your machine.
+9. Check out if your server is running at __localhost:8080/guacamole__ or domain/guacamole and use the original acc and pssw "guacadmin".
+10. Install __x11vnc__ on your machine.
 
                     sudo apt-get install x11vnc 
 
