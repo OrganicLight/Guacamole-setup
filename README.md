@@ -13,7 +13,7 @@ Following this repo I had a few issues, so we made a few adaptations.
 3. You need docker and docker compose so make use you have it [installed](https://docs.docker.com/engine/install/ubuntu/).
 4. Compose the yml file.
 
-        -- docker-compose up -d 
+         docker-compose up -d 
         
 5. Set up the database.
 
@@ -24,12 +24,12 @@ Following this repo I had a few issues, so we made a few adaptations.
 6. Set up your domain with [cloudflare tunnels](https://www.cloudflare.com/products/tunnel/) using localhost as urls.
 7. Download and Install the __Cloudflare service__ wih your __API key__.
 
-        -- curl -L --output cloudflared.deb https://github.com/cloudflare/cloudflared/releases/latest/download/cloudflared-linux-amd64.deb && /
-        sudo dpkg -i cloudflared.deb && sudo cloudflared service install 
+         curl -L --output cloudflared.deb https://github.com/cloudflare/cloudflared/releases/latest/download/cloudflared-linux-amd64.deb && /
+         sudo dpkg -i cloudflared.deb && sudo cloudflared service install 
         
 8. Allow port for guacamole.
 
-        -- ufw allow 8080
+          ufw allow 8080
         
 9. Check out if your server is running at __localhost:8080/guacamole__ or domain/guacamole and use the original acc and pssw "guacadmin".
 10. Install __x11vnc__ on your machine.
