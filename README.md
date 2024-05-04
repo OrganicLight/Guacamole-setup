@@ -8,20 +8,20 @@ https://github.com/boschkundendienst/guacamole-docker-compose/tree/master
 
 Following this repo I had a few issues, so we made a few adaptations.
 
-1. Download the prepare.sh and generate the (/initdb.sql) or clone it from this rep.
-2. Download the docker-compose.yml file, wich is slightli modifide version of the repo.
-3. You need docker and docker compose so make use u wave it installed.
+1. Download the prepare.sh and generate the [initdb](/initdb.sql) or clone it from this rep.
+2. Download the [yml](/docker-compose.yml) file, wich is modified version of the repo.
+3. You need docker and docker compose so make use you have it [installed](https://docs.docker.com/engine/install/ubuntu/).
 4. Compose the yml file.
 
         -- docker-compose up -d 
         
 5. Set up the database.
 
-        -- sudo docker exec -it postgres_guacamole_compose psql postgresql://guacamole_user:ChooseYourOwnPasswordHere1234@localhost/guacamole_db
+        sudo docker exec -it postgres_guacamole_compose psql postgresql://guacamole_user:ChooseYourOwnPasswordHere1234@localhost/acamole_db
         # dont worry about the password and the account, we dont need these.
         # now that you started the shell just copy the content of the db_file to the shell.
         
-6. Set up your domain with cloudflare tunnels using localhost as urls.
+6. Set up your domain with [cloudflare tunnels](https://www.cloudflare.com/products/tunnel/) using localhost as urls.
 7. Download and Install the Cloudflare service wih yout API key.
 
         -- curl -L --output cloudflared.deb https://github.com/cloudflare/cloudflared/releases/latest/download/cloudflared-linux-amd64.deb && /
