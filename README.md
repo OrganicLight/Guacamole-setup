@@ -73,4 +73,4 @@ Following this repo I had a few issues, so we made a few adaptations.
             user -> your user
             pssw -> your vnc password
     save and your are ready to go.
-    # make sure you use the x11 graphic contructor. Maibe logout and log is with x11.     
+    # make sure you use the x11 graphic contructor. Maybe logout and log is with x11.     
