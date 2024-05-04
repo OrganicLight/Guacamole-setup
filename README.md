@@ -8,7 +8,7 @@ https://github.com/boschkundendienst/guacamole-docker-compose/tree/master
 
 Following this repo I had a few issues, so we made a few adaptations.
 
-1. Download the prepare.sh and generate the initdb.sql or clone it from this rep.
+1. Download the prepare.sh and generate the (/initdb.sql) or clone it from this rep.
 2. Download the docker-compose.yml file, wich is slightli modifide version of the repo.
 3. You need docker and docker compose so make use u wave it installed.
 4. Compose the yml file.
