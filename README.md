@@ -22,7 +22,7 @@ Following this repo I had a few issues, so we made a few adaptations.
         # now that you started the shell just copy the content of the db_file to the shell.
         
 6. Set up your domain with [cloudflare tunnels](https://www.cloudflare.com/products/tunnel/) using localhost as urls.
-7. Download and Install the Cloudflare service wih yout API key.
+7. Download and Install the __Cloudflare service__ wih your __API key__.
 
         -- curl -L --output cloudflared.deb https://github.com/cloudflare/cloudflared/releases/latest/download/cloudflared-linux-amd64.deb && /
         sudo dpkg -i cloudflared.deb && sudo cloudflared service install 
